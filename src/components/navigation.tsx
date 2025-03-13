@@ -19,6 +19,7 @@ export function Navigation() {
     { nameKey: 'consultation', href: `/${locale}/consultation` },
     { nameKey: 'blog', href: `/${locale}/blog` },
     { nameKey: 'about', href: `/${locale}/about` },
+    { nameKey: 'charters', href: `/${locale}/charters` },
     { nameKey: 'contact', href: `/${locale}/contact` },
   ];
 

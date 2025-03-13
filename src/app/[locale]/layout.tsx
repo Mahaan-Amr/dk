@@ -34,12 +34,25 @@ export async function generateMetadata({ params }: LocaleLayoutProps) {
   // Enable static rendering for this locale in metadata generation
   unstable_setRequestLocale(locale);
   
-  const t = await getTranslations({ locale, namespace: 'metadata' });
-  
-  return {
-    title: t('title'),
-    description: t('description'),
-  };
+  try {
+    const t = await getTranslations({ locale, namespace: 'metadata' });
+    
+    return {
+      title: t('title'),
+      description: t('description'),
+    };
+  } catch (error) {
+    console.warn(`Could not load metadata translations for locale ${locale}, using fallback:`, error);
+    // Fallback to hardcoded values if translations fail
+    return {
+      title: locale === 'de' 
+        ? "Baum der Weisheit | Deutsch lernen" 
+        : "درخت خرد | آموزش زبان آلمانی",
+      description: locale === 'de'
+        ? "Deutschkurse und Bildungsberatung für Auswanderungsbewerber nach Deutschland"
+        : "آموزش زبان آلمانی و مشاوره تحصیلی برای داوطلبان مهاجرت به آلمان",
+    };
+  }
 }
 
 export default async function LocaleLayout({

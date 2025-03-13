@@ -1,278 +1,182 @@
 {
   "metadata": {
-    "title": "Derakhte Kherad | Deutschlernen",
-    "description": "Derakhte Kherad Sprachinstitut - Deutschunterricht und Beratung für ein Studium in Deutschland"
+    "title": "Derakhtekherad | Deutschkurse",
+    "description": "Derakhtekherad Sprachinstitut bietet Deutschkurse und Bildungsberatung für Deutschland an"
   },
-  "common": {
-    "language": "Sprache",
-    "darkMode": "Dunkelmodus",
-    "lightMode": "Lichtmodus"
-  },
-  "nav": {
+  "navigation": {
     "home": "Startseite",
     "courses": "Kurse",
     "blog": "Blog",
     "about": "Über uns",
     "contact": "Kontakt",
-    "consultation": "Beratung",
-    "login": "Anmelden",
-    "signup": "Registrieren"
+    "consultation": "Beratung"
   },
   "home": {
     "hero": {
-      "slides": [
-        {
-          "title": "Deutsch lernen",
-          "subtitle": "bei Derakhte Kherad",
-          "description": "Lernen Sie mit den besten Deutschlehrern in Shiraz"
-        },
-        {
-          "title": "Online und Präsenzkurse",
-          "subtitle": "mit umfassenden Materialien",
-          "description": "Flexibilität in der Kursgestaltung nach Ihren Bedürfnissen"
-        },
-        {
-          "title": "Fachberatung",
-          "subtitle": "für Studium im Ausland",
-          "description": "Beratung für das Studium an den besten Universitäten Deutschlands"
-        }
-      ],
-      "buttons": {
-        "courses": "Kurse anzeigen",
-        "consultation": "Kostenlose Beratung"
+      "title": "Deutsch lernen mit Derakhtekherad",
+      "subtitle": "Erleben Sie das Deutschlernen mit modernen Methoden und erfahrenen Lehrern",
+      "cta": "Jetzt beginnen"
+    }
+  },
+  "admin": {
+    "title": "Admin-Panel",
+    "openSidebar": "Seitenleiste öffnen",
+    "login": {
+      "title": "Admin-Login",
+      "description": "Bitte geben Sie Ihren Benutzernamen und Ihr Passwort ein",
+      "username": "Benutzername",
+      "password": "Passwort",
+      "submit": "Anmelden",
+      "loading": "Anmeldung...",
+      "error": "Benutzername oder Passwort falsch"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "blog": "Blog verwalten",
+      "courses": "Kurse verwalten",
+      "media": "Medien",
+      "settings": "Einstellungen",
+      "backToSite": "Zurück zur Website",
+      "logout": "Abmelden",
+      "adminUser": "Administrator"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "description": "Übersicht über die Website",
+      "recentCourses": "Neueste Kurse",
+      "recentPosts": "Neueste Artikel",
+      "noCourses": "Keine Kurse gefunden",
+      "noPosts": "Keine Artikel gefunden",
+      "stats": {
+        "totalCourses": "Gesamtzahl der Kurse",
+        "activeCourses": "Aktive Kurse",
+        "totalBlogPosts": "Gesamtzahl der Artikel",
+        "totalUsers": "Gesamtzahl der Benutzer"
       }
     },
-    "cta": {
-      "title": "Beginnen Sie noch heute mit dem Deutschlernen!",
-      "subtitle": "Sonderrabatt für Anmeldungen bis Ende April",
-      "button": "Kurse anzeigen"
-    },
-    "stats": {
-      "students": "Erfolgreiche Studenten",
-      "experience": "Jahre Erfahrung",
-      "courses": "Fachkurse",
-      "satisfaction": "Studentenzufriedenheit"
-    },
-    "whyUs": {
-      "title": "Warum Derakhte Kherad?",
-      "subtitle": "Mit unserer Erfahrung und Expertise ebnen wir Ihren Weg zum Erfolg",
-      "features": [
-        {
-          "title": "Erfahrene Dozenten",
-          "description": "Unterricht durch erfahrene Dozenten mit Doktortitel"
-        },
-        {
-          "title": "Kleine Klassen",
-          "description": "Besondere Aufmerksamkeit für jeden Studenten mit maximal 10 Teilnehmern pro Klasse"
-        },
-        {
-          "title": "Online und Präsenzunterricht",
-          "description": "Flexibilität in der Art des Unterrichts"
-        },
-        {
-          "title": "Anerkanntes Zertifikat",
-          "description": "Ausstellung eines anerkannten Kurszertifikats"
-        }
-      ]
-    },
-    "featuredCourses": {
-      "title": "Besondere Kurse",
-      "subtitle": "Die besten Deutschkurse unterrichtet von erfahrenen Dozenten"
-    },
-    "testimonials": {
-      "title": "Studentenmeinungen",
-      "subtitle": "Erfahren Sie von den Erfahrungen unserer Studenten"
+    "media": {
+      "mediaLibrary": "Medienbibliothek",
+      "uploadNew": "Neue Datei hochladen",
+      "searchPlaceholder": "Medien durchsuchen...",
+      "search": "Suchen",
+      "allFiles": "Alle Dateien",
+      "images": "Bilder",
+      "videos": "Videos",
+      "audio": "Audio",
+      "documents": "Dokumente",
+      "noMediaFound": "Keine Medien gefunden",
+      "deleteConfirmation": "Sind Sie sicher, dass Sie diese Datei löschen möchten?",
+      "selectCount": "{count} ausgewählt",
+      "filename": "Dateiname",
+      "originalFilename": "Originaler Dateiname",
+      "title": "Titel",
+      "altText": "Alternativer Text",
+      "altTextHelp": "Alternativer Text für Bilder (für Barrierefreiheit)",
+      "mimeType": "Dateityp",
+      "size": "Größe",
+      "dimensions": "Abmessungen",
+      "url": "URL",
+      "mediaDetails": "Mediendetails",
+      "editMedia": "Medien bearbeiten",
+      "save": "Speichern",
+      "cancel": "Abbrechen",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "preview": "Vorschau",
+      "download": "Herunterladen",
+      "clear": "Löschen",
+      "previous": "Zurück",
+      "next": "Weiter",
+      "filterBy": "Filtern nach"
     },
     "blog": {
-      "title": "Neueste Artikel",
-      "subtitle": "Die neuesten Bildungsmaterialien und Nachrichten zur Migration nach Deutschland",
-      "readMore": "Weiterlesen",
-      "viewAll": "Alle Artikel anzeigen",
-      "author": "Autor"
-    },
-    "contact": {
-      "title": "Sind Sie bereit anzufangen?",
-      "subtitle": "Kontaktieren Sie uns noch heute.",
-      "contactUs": "Kontakt",
-      "consultation": "Beratung anfragen"
-    }
-  },
-  "courses": {
-    "title": "Unsere Kurse",
-    "subtitle": "Alle Deutschkurse bei Derakhte Kherad",
-    "search": "Kurse durchsuchen...",
-    "noCoursesFound": "Keine Kurse mit den ausgewählten Kriterien gefunden.",
-    "level": "Niveau",
-    "teacher": "Dozent",
-    "price": "Preis",
-    "startDate": "Kursbeginn",
-    "details": "Details anzeigen",
-    "filter": {
-      "title": "Kurse filtern",
-      "all": "Alle",
-      "level": "Niveau",
-      "teacher": "Dozent",
-      "reset": "Filter zurücksetzen"
-    },
-    "levels": {
-      "beginner": "Anfänger",
-      "intermediate": "Mittelstufe",
-      "advanced": "Fortgeschritten"
-    },
-    "teachers": {
-      "mohammadi": "Dr. Mohammadi",
-      "rezaei": "Dr. Rezaei",
-      "alavi": "Dr. Alavi"
-    },
-    "coursesList": {
-      "a1": {
-        "title": "Deutschkurs A1",
-        "description": "Starten Sie mit dem Erlernen der deutschen Sprache mit Schwerpunkt auf Konversation und Grammatik"
+      "title": "Blog-Verwaltung",
+      "posts": "Beiträge",
+      "categories": "Kategorien",
+      "newPost": "Neuer Beitrag",
+      "editPost": "Beitrag bearbeiten",
+      "deletePost": "Beitrag löschen",
+      "newCategory": "Neue Kategorie",
+      "editCategory": "Kategorie bearbeiten",
+      "deleteCategory": "Kategorie löschen",
+      "confirmDelete": "Sind Sie sicher, dass Sie dies löschen möchten?",
+      "status": "Status",
+      "draft": "Entwurf",
+      "published": "Veröffentlicht",
+      "archived": "Archiviert",
+      "author": "Autor",
+      "date": "Datum",
+      "actions": "Aktionen",
+      "noPostsFound": "Keine Beiträge gefunden",
+      "noCategoriesFound": "Keine Kategorien gefunden",
+      "categoryName": "Kategoriename",
+      "categorySlug": "Kategorie-Slug",
+      "categoryDescription": "Kategoriebeschreibung",
+      "saveCategory": "Kategorie speichern",
+      "categoryCreated": "Kategorie erfolgreich erstellt",
+      "categoryUpdated": "Kategorie erfolgreich aktualisiert",
+      "categoryDeleted": "Kategorie erfolgreich gelöscht",
+      "postCreated": "Beitrag erfolgreich erstellt",
+      "postUpdated": "Beitrag erfolgreich aktualisiert",
+      "postDeleted": "Beitrag erfolgreich gelöscht",
+      "languages": {
+        "fa": "Persisch",
+        "de": "Deutsch"
       },
-      "b1": {
-        "title": "Deutschkurs B1",
-        "description": "Verbessern Sie Ihre Sprachkenntnisse für die Goethe B1-Prüfung"
-      },
-      "testdaf": {
-        "title": "TestDaF Vorbereitungskurs",
-        "description": "Intensiver Vorbereitungskurs für die TestDaF-Prüfung mit Fokus auf akademische Fähigkeiten"
+      "editor": {
+        "title": "Titel",
+        "slug": "Slug",
+        "content": "Inhalt",
+        "excerpt": "Auszug",
+        "featuredImage": "Hauptbild",
+        "categories": "Kategorien",
+        "tags": "Tags",
+        "status": "Status",
+        "publishDate": "Veröffentlichungsdatum",
+        "save": "Speichern",
+        "preview": "Vorschau",
+        "back": "Zurück",
+        "seoTitle": "SEO-Titel",
+        "seoDescription": "SEO-Beschreibung",
+        "seoOgImage": "Social Media Bild",
+        "seoOgImagePlaceholder": "URL für Social Media Vorschaubild",
+        "seoOgImageHelp": "Dieses Bild wird beim Teilen in sozialen Medien verwendet",
+        "seoPreview": "SEO-Vorschau",
+        "seoPreviewTitle": "Ihr Artikeltitel wird hier angezeigt",
+        "seoPreviewDescription": "Ihre Artikelbeschreibung wird hier angezeigt. Dieser Text wird in Suchergebnissen und beim Teilen des Artikels angezeigt.",
+        "statusDraft": "Entwurf",
+        "statusPublished": "Veröffentlicht",
+        "statusArchived": "Archiviert",
+        "revisionsTitle": "Revisionen",
+        "view": "Ansehen",
+        "newPost": "Neuer Beitrag",
+        "createPost": "Beitrag erstellen",
+        "editPost": "Beitrag bearbeiten",
+        "titlePlaceholder": "Geben Sie den Titel des Beitrags ein",
+        "summaryPlaceholder": "Geben Sie eine Zusammenfassung des Beitrags ein",
+        "titleRequired": "Titel ist erforderlich",
+        "summaryRequired": "Zusammenfassung ist erforderlich",
+        "contentRequired": "Inhalt ist erforderlich",
+        "schedule": "Veröffentlichung planen",
+        "preparing": "Vorbereitung..."
       }
-    }
-  },
-  "blog": {
-    "title": "Derakhte Kherad Blog",
-    "subtitle": "Die neuesten Bildungsartikel und Migrationsnachrichten",
-    "categoriesTitle": "Kategorien",
-    "recentPosts": "Neueste Artikel",
-    "search": "Artikel durchsuchen",
-    "readMore": "Weiterlesen",
-    "noPostsFound": "Keine Artikel mit den ausgewählten Kriterien gefunden.",
-    "author": "Autor",
-    "categories": {
-      "all": "Alle Kategorien",
-      "language": "Sprachunterricht",
-      "immigration": "Migration",
-      "culture": "Kultur",
-      "education": "Bildung"
-    },
-    "posts": {
-      "post1": {
-        "title": "Umfassender Leitfaden für die TestDaF-Prüfung",
-        "summary": "Alles, was Sie für den Erfolg bei der TestDaF-Prüfung wissen müssen, ist in diesem Artikel zusammengefasst."
-      },
-      "post2": {
-        "title": "Schritte zum Erhalt eines deutschen Studentenvisums",
-        "summary": "Informationen zu den Schritten und erforderlichen Dokumenten für ein deutsches Studentenvisum im Jahr 2024."
-      },
-      "post3": {
-        "title": "Kulturelle Unterschiede zwischen Iran und Deutschland",
-        "summary": "Einblicke in die kulturellen Unterschiede zwischen Iran und Deutschland für internationale Studierende."
-      }
-    },
-    "authors": {
-      "author1": "Dr. Mohammadi",
-      "author2": "Dr. Rezaei",
-      "author3": "Dr. Alavi"
-    }
-  },
-  "about": {
-    "title": "Über Derakhte Kherad",
-    "subtitle": "Lernen Sie unser Sprachinstitut kennen",
-    "history": {
-      "title": "Geschichte",
-      "description": "Das Sprachinstitut Derakhte Kherad wurde 2011 mit dem Ziel gegründet, qualitativ hochwertigen Deutschunterricht anzubieten."
-    },
-    "mission": {
-      "title": "Unsere Mission",
-      "description": "Unser Ziel ist es, Studenten zu befähigen, in akademischen und internationalen beruflichen Umgebungen erfolgreich zu sein."
-    },
-    "team": {
-      "title": "Unser Team",
-      "description": "Die Lehrkräfte und Mitarbeiter von Derakhte Kherad sind erfahrene Fachleute im Bereich des Deutschunterrichts."
-    }
-  },
-  "contact": {
-    "title": "Kontakt",
-    "subtitle": "Treten Sie mit uns in Verbindung",
-    "form": {
-      "title": "Nachricht senden",
-      "name": "Vor- und Nachname",
-      "email": "E-Mail",
-      "phone": "Telefonnummer",
-      "message": "Ihre Nachricht",
-      "submit": "Nachricht senden",
-      "submitting": "Wird gesendet...",
-      "success": "Ihre Nachricht wurde erfolgreich gesendet.",
-      "error": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es erneut."
-    },
-    "info": {
-      "title": "Kontaktinformationen",
-      "address": "Adresse",
-      "phone": "Telefon",
-      "email": "E-Mail",
-      "hours": "Öffnungszeiten",
-      "weekdays": "Samstag bis Mittwoch",
-      "weekend": "Donnerstag und Freitag",
-      "closed": "Geschlossen"
-    }
-  },
-  "consultation": {
-    "title": "Studienberatung",
-    "subtitle": "Erhalten Sie eine Fachberatung für ein Studium in Deutschland",
-    "form": {
-      "title": "Beratung anfragen",
-      "name": "Vor- und Nachname",
-      "email": "E-Mail",
-      "phone": "Telefonnummer",
-      "topic": "Beratungsthema",
-      "message": "Details",
-      "submit": "Beratung anfragen",
-      "submitting": "Wird gesendet...",
-      "success": "Ihre Beratungsanfrage wurde erfolgreich gesendet.",
-      "error": "Fehler beim Senden der Anfrage. Bitte versuchen Sie es erneut."
-    },
-    "topics": {
-      "academic": "Studienberatung",
-      "visa": "Visumsberatung",
-      "language": "Sprachprüfungsberatung",
-      "career": "Karriereberatung"
-    },
-    "info": {
-      "title": "Beratungsarten",
-      "academicDescription": "Beratung zur Auswahl von Studienfächern, Universitäten und zum Bewerbungsprozess in Deutschland.",
-      "visaDescription": "Beratung zu erforderlichen Dokumenten, Interviews und zum Prozess der Beantragung eines deutschen Studentenvisums.",
-      "languageDescription": "Beratung zu deutschen Sprachprüfungen wie TestDaF, DSH und Goethe-Zertifikaten.",
-      "careerDescription": "Beratung zu Karrieremöglichkeiten und Arbeitssuche in Deutschland nach dem Studium.",
-      "note": "Hinweis",
-      "noteText": "Beratungstermine werden sowohl persönlich als auch online angeboten. Bitte füllen Sie das Formular aus, um einen Termin zu vereinbaren."
     }
   },
   "footer": {
-    "about": "Über Derakhte Kherad",
-    "aboutText": "Das Derakhte Kherad Sprachinstitut wurde gegründet, um qualitativ hochwertigen Deutschunterricht und Studienberatung anzubieten.",
+    "about": "Über Derakhtekherad",
+    "aboutText": "Das Derakhtekherad Institut wurde gegründet, um hochwertige Deutsch-Sprachkurse und Beratungsdienste für Studenten anzubieten.",
     "quickLinks": "Schnellzugriff",
     "contactInfo": "Kontaktinformationen",
     "address": "Shiraz, Mulla Sadra Straße, Gasse 3, Nr. 12",
     "phone": "071-36478231",
-    "email": "info@derakhtekherad.ir",
-    "copyright": "Alle Rechte vorbehalten für Derakhte Kherad",
+    "email": "info@derakhtekherad.com",
+    "copyright": "Alle Rechte vorbehalten für Derakhtekherad",
     "follow": "Folgen Sie uns",
     "home": "Startseite",
     "courses": "Kurse",
     "consultation": "Beratung",
     "blog": "Blog",
+    "aboutLink": "Über uns",
     "contact": "Kontakt"
-  },
-  "errors": {
-    "notFound": {
-      "title": "Seite nicht gefunden",
-      "description": "Es tut uns leid, die gesuchte Seite existiert nicht.",
-      "button": "Zurück zur Startseite"
-    },
-    "serverError": {
-      "title": "Serverfehler",
-      "description": "Es tut uns leid, ein Serverfehler ist aufgetreten. Bitte versuchen Sie es später noch einmal.",
-      "button": "Zurück zur Startseite"
-    }
   }
 } 

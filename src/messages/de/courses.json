@@ -1,0 +1,83 @@
+{
+  "title": "Deutschkurse",
+  "subtitle": "Entdecken Sie unsere Sprachkurse",
+  "search": "Kurs suchen...",
+  "filter": "Filter",
+  "details": "Details",
+  "startDate": "Startdatum",
+  "levels": {
+    "all": "Alle Niveaus",
+    "beginner": "Anfänger",
+    "intermediate": "Mittelstufe",
+    "advanced": "Fortgeschritten"
+  },
+  "types": {
+    "all": "Alle Kurstypen",
+    "regular": "Reguläre Kurse",
+    "intensive": "Intensivkurse",
+    "exam": "Prüfungsvorbereitung",
+    "conversation": "Konversationskurse"
+  },
+  "formats": {
+    "all": "Alle Formate",
+    "online": "Online",
+    "inPerson": "Präsenz",
+    "hybrid": "Hybrid"
+  },
+  "coursesList": {
+    "a1": {
+      "title": "Deutsch A1",
+      "subtitle": "Grundlagen der deutschen Sprache",
+      "description": "Lernen Sie die Grundlagen der deutschen Sprache, einschließlich einfacher Konversationen, grundlegender Grammatik und Wortschatz für Anfänger.",
+      "duration": "8 Wochen",
+      "sessions": "24 Sitzungen",
+      "level": "Anfänger",
+      "price": "€200"
+    },
+    "a2": {
+      "title": "Deutsch A2",
+      "subtitle": "Elementare Sprachverwendung",
+      "description": "Erweitern Sie Ihre Grundkenntnisse und lernen Sie, sich in alltäglichen Situationen zu verständigen und einfache Texte zu verstehen.",
+      "duration": "8 Wochen",
+      "sessions": "24 Sitzungen",
+      "level": "Anfänger",
+      "price": "€220"
+    },
+    "b1": {
+      "title": "Deutsch B1",
+      "subtitle": "Selbständige Sprachverwendung",
+      "description": "Entwickeln Sie Ihre Fähigkeiten, um sich in den meisten Situationen zurechtzufinden und über vertraute Themen zu diskutieren.",
+      "duration": "10 Wochen",
+      "sessions": "30 Sitzungen",
+      "level": "Mittelstufe",
+      "price": "€250"
+    },
+    "b2": {
+      "title": "Deutsch B2",
+      "subtitle": "Fortgeschrittene Kommunikation",
+      "description": "Verbessern Sie Ihre Sprachkenntnisse, um komplexe Texte zu verstehen und an detaillierten Diskussionen teilzunehmen.",
+      "duration": "12 Wochen",
+      "sessions": "36 Sitzungen",
+      "level": "Mittelstufe",
+      "price": "€280"
+    },
+    "testdaf": {
+      "title": "TestDaF Vorbereitung",
+      "subtitle": "Prüfungsvorbereitung für Universitätszulassung",
+      "description": "Spezifische Vorbereitung auf die TestDaF-Prüfung mit Fokus auf alle Prüfungsteile: Lesen, Hören, Schreiben und Sprechen.",
+      "duration": "8 Wochen",
+      "sessions": "24 Sitzungen",
+      "level": "Fortgeschritten",
+      "price": "€300"
+    }
+  },
+  "teachers": {
+    "mohammadi": "Javad Taghizadeh",
+    "rezaei": "Javad Taghizadeh",
+    "alavi": "Javad Taghizadeh"
+  },
+  "meta": {
+    "title": "Deutschkurse - Derakhtekherad",
+    "description": "Entdecken Sie unsere Deutschkurse für alle Niveaus, von Anfängern bis zur TestDaF-Vorbereitung."
+  }
+} 

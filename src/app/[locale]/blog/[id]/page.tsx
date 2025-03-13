@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { StickyHeader } from '@/components/sticky-header';
 import { BackToTop } from '@/components/back-to-top';
 import { FloatingChat } from '@/components/floating-chat';
+import { PlaceholderImage } from '@/components/ui/placeholder-image';
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
 import { useParams } from 'next/navigation';
@@ -28,7 +29,7 @@ const allBlogPosts = [
     summaryKey: 'blog.posts.post1.summary',
     authorKey: 'blog.authors.author1',
     categoryKey: 'blog.categories.language',
-    imageUrl: '/images/blog/testdaf-guide.jpg',
+    imageUrl: '',
     date: '2024-03-15',
   },
   {
@@ -37,7 +38,7 @@ const allBlogPosts = [
     summaryKey: 'blog.posts.post2.summary',
     authorKey: 'blog.authors.author2',
     categoryKey: 'blog.categories.immigration',
-    imageUrl: '/images/blog/german-visa.jpg',
+    imageUrl: '',
     date: '2024-03-10',
   },
   {
@@ -46,7 +47,7 @@ const allBlogPosts = [
     summaryKey: 'blog.posts.post3.summary',
     authorKey: 'blog.authors.author3',
     categoryKey: 'blog.categories.culture',
-    imageUrl: '/images/blog/culture-differences.jpg',
+    imageUrl: '',
     date: '2024-03-05',
   },
 ];
@@ -108,7 +109,7 @@ export default function BlogPostPage() {
   const t = useTranslations();
   const locale = useLocale();
   const params = useParams();
-  const postId = params.id as string;
+  const postId = params?.id as string || '1'; // Add null check and fallback to post 1
   
   const [post, setPost] = useState<BlogPost | null>(null);
   const [relatedPosts, setRelatedPosts] = useState<BlogPost[]>([]);
@@ -151,29 +152,29 @@ export default function BlogPostPage() {
   const shareButtons = [
     {
       icon: FaWhatsapp,
-      label: t('common.share.whatsapp'),
+      label: t('common.common.share.whatsapp'),
       onClick: () => shareUrl && window.open(`https://wa.me/?text=${encodeURIComponent(`${post ? t(post.titleKey) : ''}\n${shareUrl}`)}`, '_blank'),
       color: 'bg-green-500'
     },
     {
       icon: FaTelegram,
-      label: t('common.share.telegram'),
+      label: t('common.common.share.telegram'),
       onClick: () => shareUrl && window.open(`https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(post ? t(post.titleKey) : '')}`, '_blank'),
       color: 'bg-blue-500'
     },
     {
       icon: FaTwitter,
-      label: t('common.share.twitter'),
+      label: t('common.common.share.twitter'),
       onClick: () => shareUrl && window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(`${post ? t(post.titleKey) : ''}\n${shareUrl}`)}`, '_blank'),
       color: 'bg-sky-500'
     },
     {
       icon: FaLink,
-      label: t('common.share.copyLink'),
+      label: t('common.common.share.copyLink'),
       onClick: () => {
         if (shareUrl) {
           navigator.clipboard.writeText(shareUrl);
-          alert(t('common.share.copied'));
+          alert(t('common.common.share.copied'));
         }
       },
       color: 'bg-gray-500'
@@ -282,11 +283,14 @@ export default function BlogPostPage() {
         </div>
         
         {/* Featured Image */}
-        <div className="mb-8 rounded-lg overflow-hidden">
-          <img
+        <div className="mb-8 rounded-lg overflow-hidden h-[400px]">
+          <PlaceholderImage
             src={post.imageUrl}
             alt={t(post.titleKey)}
-            className="w-full h-auto object-cover"
+            category={post.categoryKey.split('.').pop() || 'default'}
+            fill
+            priority
+            className="rounded-lg"
           />
         </div>
         
@@ -300,7 +304,6 @@ export default function BlogPostPage() {
           {/* Main Content */}
           {postContent.paragraphs.map((paragraph, index) => (
             <p key={index} className="mb-6 text-gray-700 dark:text-gray-300 leading-relaxed">
-              {/* Using a fallback text since we don't have actual translations for these keys */}
               {t.raw(paragraph.key) || `${paragraph.key} - This is a placeholder for the actual paragraph content that would be loaded from the translation files. In a real implementation, each paragraph would have its complete text in the appropriate language.`}
             </p>
           ))}
@@ -309,13 +312,11 @@ export default function BlogPostPage() {
           {postContent.subheadings.map((subheading, index) => (
             <div key={index} className="mt-8 mb-6">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                {/* Using a fallback text since we don't have actual translations for these keys */}
                 {t.raw(subheading.key) || `${subheading.key} - Subheading ${index + 1}`}
               </h2>
               
               {subheading.paragraphKeys.map((paraKey, paraIndex) => (
                 <p key={paraIndex} className="mb-4 text-gray-700 dark:text-gray-300 leading-relaxed">
-                  {/* Using a fallback text since we don't have actual translations for these keys */}
                   {t.raw(paraKey) || `${paraKey} - This is content under subheading ${index + 1}, paragraph ${paraIndex + 1}.`}
                 </p>
               ))}
@@ -339,10 +340,13 @@ export default function BlogPostPage() {
                 >
                   <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform group-hover:shadow-lg">
                     <div className="h-48 overflow-hidden">
-                      <img
+                      <PlaceholderImage
                         src={relatedPost.imageUrl}
                         alt={t(relatedPost.titleKey)}
-                        className="w-full h-full object-cover transition-transform group-hover:scale-105"
+                        category={relatedPost.categoryKey.split('.').pop() || 'default'}
+                        fill
+                        priority
+                        className="h-full"
                       />
                     </div>
                     <div className="p-4">

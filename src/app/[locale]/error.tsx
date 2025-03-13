@@ -12,7 +12,8 @@ export default function Error({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
-  const t = useTranslations('errors.serverError');
+  // Access the error messages from the common namespace
+  const t = useTranslations('common.errors.serverError');
   const locale = useLocale();
 
   useEffect(() => {

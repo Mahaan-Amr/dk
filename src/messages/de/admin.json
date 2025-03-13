@@ -1,0 +1,37 @@
+{
+  "title": "Admin-Panel",
+  "openSidebar": "Seitenleiste öffnen",
+  "login": {
+    "title": "Admin-Login",
+    "description": "Bitte geben Sie Ihren Benutzernamen und Ihr Passwort ein",
+    "username": "Benutzername",
+    "password": "Passwort",
+    "submit": "Anmelden",
+    "loading": "Anmeldung...",
+    "error": "Benutzername oder Passwort falsch"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "blog": "Blog verwalten",
+    "courses": "Kurse verwalten",
+    "media": "Medien",
+    "settings": "Einstellungen",
+    "backToSite": "Zurück zur Website",
+    "logout": "Abmelden",
+    "adminUser": "Administrator"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": "Übersicht über die Website",
+    "welcome": "Willkommen",
+    "stats": "Statistiken",
+    "posts": "Beiträge",
+    "courses": "Kurse",
+    "users": "Benutzer",
+    "viewAll": "Alle anzeigen",
+    "recentCourses": "Neueste Kurse",
+    "recentPosts": "Neueste Artikel",
+    "noCourses": "Keine Kurse gefunden",
+    "noPosts": "Keine Artikel gefunden"
+  }
+} 

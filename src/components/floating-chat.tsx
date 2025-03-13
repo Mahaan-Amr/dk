@@ -11,19 +11,19 @@ export function FloatingChat() {
     {
       icon: FaWhatsapp,
       label: 'واتساپ',
-      href: 'https://wa.me/+989123456789',
+      href: 'https://wa.me/+989360217684',
       color: 'bg-green-500',
     },
     {
       icon: FaPhone,
       label: 'تماس',
-      href: 'tel:+989123456789',
+      href: 'tel:+989360217684',
       color: 'bg-blue-500',
     },
     {
       icon: FaEnvelope,
       label: 'ایمیل',
-      href: 'mailto:info@derakhtekheradd.com',
+      href: 'mailto:info@derakhtekherad.ir',
       color: 'bg-red-500',
     },
   ];

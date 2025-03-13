@@ -4,10 +4,10 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 import { gsap } from 'gsap';
 import { Draggable } from 'gsap/Draggable';
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { useLocale } from 'next-intl';
+import { PlaceholderImage } from './ui/placeholder-image';
 
 // Register GSAP plugins
 if (typeof window !== 'undefined') {
@@ -154,10 +154,15 @@ export function HeroCarousel() {
           }}
           className="absolute inset-0"
         >
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: `url(${slide.image})` }}
-          >
+          <div className="absolute inset-0">
+            <PlaceholderImage
+              src={slide.image}
+              alt={slide.title}
+              fill
+              priority={index === 0}
+              className="object-cover"
+              category="slider"
+            />
             <div className="absolute inset-0 bg-black bg-opacity-50" />
           </div>
           <div className="relative h-full flex items-center justify-center text-center">
@@ -226,12 +231,13 @@ export function HeroCarousel() {
             {/* Slide Preview on Hover */}
             <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 w-32 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
               <div className="rounded overflow-hidden shadow-lg">
-                <Image 
+                <PlaceholderImage 
                   src={slides[index].image} 
                   alt={slides[index].title} 
                   width={128}
                   height={80}
                   className="w-full h-20 object-cover"
+                  category="slider"
                 />
                 <div className="bg-primary text-white text-xs py-1 px-2 text-center">
                   {slides[index].title}

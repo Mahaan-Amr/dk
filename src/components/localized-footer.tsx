@@ -57,7 +57,19 @@ export function LocalizedFooter() {
             </h3>
             <ul className="space-y-2 text-sm text-gray-500 dark:text-gray-400">
               <li>{t('address')}</li>
-              <li>{t('phone')}</li>
+              <li>
+                <div className="flex flex-col">
+                  <span className="font-semibold">{locale === 'fa' ? 'تلفن ثابت: ' : 'Tel: '}</span>
+                  <span>{t('phone')}</span>
+                  <span>{t('mobile')}</span>
+                </div>
+              </li>
+              <li>
+                <div className="flex items-center">
+                  <span className="font-semibold">{locale === 'fa' ? 'واتساپ: ' : 'WhatsApp: '}</span>
+                  <span className="ml-1">{t('whatsapp')}</span>
+                </div>
+              </li>
               <li>{t('email')}</li>
             </ul>
           </div>

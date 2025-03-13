@@ -6,9 +6,11 @@ import { BackToTop } from '@/components/back-to-top';
 import { FloatingChat } from '@/components/floating-chat';
 import { useTranslations } from 'next-intl';
 import { DirectionAware } from '@/components/direction-aware';
+import { useLocale } from 'next-intl';
 
 export default function ContactPage() {
   const t = useTranslations();
+  const locale = useLocale();
   
   const [formData, setFormData] = useState({
     name: '',
@@ -183,7 +185,17 @@ export default function ContactPage() {
               
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{t('contact.info.phone')}</h3>
-                <p className="text-gray-600 dark:text-gray-300">{t('footer.phone')}</p>
+                <div className="space-y-1">
+                  <p className="text-gray-600 dark:text-gray-300">
+                    <span className="font-medium">{locale === 'fa' ? 'تلفن ثابت: ' : 'Tel: '}</span>{t('footer.phone')}
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    <span className="font-medium">{locale === 'fa' ? 'موبایل: ' : 'Mobile: '}</span>{t('footer.mobile')}
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    <span className="font-medium">{locale === 'fa' ? 'واتساپ: ' : 'WhatsApp: '}</span>{t('footer.whatsapp')}
+                  </p>
+                </div>
               </div>
               
               <div>

@@ -5,6 +5,7 @@ import { CoursePreviewModal } from './course-preview-modal';
 import { gsap } from 'gsap';
 import { useLocale } from 'next-intl';
 import { useTranslations } from 'next-intl';
+import { PlaceholderImage } from './ui/placeholder-image';
 
 interface CourseCardProps {
   id: string;
@@ -91,10 +92,15 @@ export function CourseCard({
         onClick={openModal}
       >
         <div className="relative">
-          <div 
-            className="h-48 bg-cover bg-center transition-transform duration-300 hover:scale-105"
-            style={{ backgroundImage: `url(${imageUrl})` }}
-          />
+          <div className="h-48 overflow-hidden">
+            <PlaceholderImage
+              src={imageUrl}
+              alt={title}
+              fill
+              className="transition-transform duration-300 hover:scale-105"
+              category={level.toLowerCase() || 'course'}
+            />
+          </div>
           <div className="absolute top-3 right-3 bg-primary text-white px-2 py-1 text-xs font-medium rounded">
             {level}
           </div>

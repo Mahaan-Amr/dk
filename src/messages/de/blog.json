@@ -1,0 +1,60 @@
+{
+  "title": "Blog",
+  "subtitle": "Neueste Artikel und Nachrichten",
+  "categoriesTitle": "Kategorien",
+  "recentPosts": "Neueste Artikel",
+  "search": "Suchen...",
+  "readMore": "Weiterlesen",
+  "noPostsFound": "Keine Artikel gefunden",
+  "author": "Autor",
+  "share": "Teilen",
+  "backToBlog": "Zurück zum Blog",
+  "postNotFound": "Artikel nicht gefunden",
+  "postNotFoundDesc": "Der gesuchte Artikel existiert leider nicht in unserem System.",
+  "relatedPosts": "Ähnliche Artikel",
+  "categories": {
+    "all": "Alle Kategorien",
+    "language": "Sprachunterricht",
+    "immigration": "Einwanderung",
+    "culture": "Kultur",
+    "education": "Bildung"
+  },
+  "posts": {
+    "post1": {
+      "title": "Umfassender Leitfaden zur TestDaF-Prüfung",
+      "summary": "Alles, was Sie über die TestDaF-Prüfung wissen müssen, von der Vorbereitung bis zum Prüfungstag.",
+      "content": {
+        "p1": "Die TestDaF-Prüfung ist eine der wichtigsten deutschen Sprachprüfungen, die für die Zulassung an deutschen Universitäten erforderlich ist. Diese Prüfung bewertet Ihre Deutschkenntnisse und das Ergebnis wird für die akademische Zulassung an deutschen Universitäten verwendet.",
+        "p2": "Die TestDaF-Prüfung besteht aus vier Teilen: Leseverstehen, Hörverstehen, Schriftlicher Ausdruck und Mündlicher Ausdruck. Um in dieser Prüfung erfolgreich zu sein, müssen Sie in allen diesen Fähigkeiten ausreichende Kenntnisse haben.",
+        "p3": "In diesem Leitfaden möchten wir Sie mit der Struktur der Prüfung, der Vorbereitung und Schlüsseltipps für den Erfolg bei der TestDaF-Prüfung vertraut machen.",
+        "p4": "Mit dem Studium dieses Leitfadens und kontinuierlicher Übung können Sie mit größerer Zuversicht an der Prüfung teilnehmen und ein zufriedenstellendes Ergebnis erzielen.",
+        "h1": "Struktur der TestDaF-Prüfung",
+        "h1p1": "Die TestDaF-Prüfung besteht aus vier Hauptteilen: Leseverstehen, Hörverstehen, Schriftlicher Ausdruck und Mündlicher Ausdruck.",
+        "h1p2": "Jeder Teil der Prüfung wird separat bewertet und für jeden Teil erhalten Sie eine Bewertung zwischen TDN 3 und TDN 5. Für die Zulassung an den meisten deutschen Universitäten ist mindestens TDN 4 in allen Bereichen erforderlich.",
+        "h2": "Vorbereitung auf die Prüfung",
+        "h2p1": "Für die Vorbereitung auf die TestDaF-Prüfung sollten Sie einen regelmäßigen Studien- und Übungsplan haben. Die Verwendung von TestDaF-Vorbereitungsbüchern, die Teilnahme an Vorbereitungskursen und kontinuierliche Übung der Sprachfähigkeiten sind alle für den Erfolg notwendig.",
+        "h2p2": "Im Derakhte Kherad Institut bieten wir spezielle Vorbereitungskurse für die TestDaF-Prüfung an, die Übungen ähnlich der Hauptprüfung und nützliche Anleitungen von erfahrenen Lehrern umfassen.",
+        "h3": "Schlüsseltipps für den Prüfungserfolg",
+        "h3p1": "Zeitmanagement ist bei der TestDaF-Prüfung sehr wichtig. Machen Sie sich vor der Prüfung mit der Struktur und dem Timing jedes Abschnitts vertraut und simulieren Sie in Ihren Übungen ähnliche Prüfungsbedingungen.",
+        "h3p2": "Neben Sprachkenntnissen kann auch die Vertrautheit mit häufigen Themen in der TestDaF-Prüfung wie Umwelt, Bildung, Technologie und soziale Themen Ihnen helfen, Texte besser zu verstehen und Fragen zu beantworten."
+      }
+    },
+    "post2": {
+      "title": "Schritte zum Erhalt eines deutschen Studentenvisums",
+      "summary": "Ein detaillierter Leitfaden zu den Anforderungen und dem Prozess der Beantragung eines deutschen Studentenvisums."
+    },
+    "post3": {
+      "title": "Kulturelle Unterschiede zwischen Iran und Deutschland",
+      "summary": "Erfahren Sie mehr über die wichtigsten kulturellen Unterschiede, die Sie kennen sollten, bevor Sie nach Deutschland ziehen."
+    }
+  },
+  "authors": {
+    "author1": "Dr. Mohammadi",
+    "author2": "Dr. Rezaei",
+    "author3": "Dr. Alavi"
+  },
+  "meta": {
+    "title": "Blog - Derakhtekherad",
+    "description": "Lesen Sie unsere neuesten Artikel über Deutschlernen, Einwanderung und Bildung in Deutschland."
+  }
+} 

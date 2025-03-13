@@ -1,0 +1,177 @@
+{
+  "home": {
+    "hero": {
+      "slides": [
+        {
+          "title": "Deutsch lernen",
+          "subtitle": "bei Derakhtekherad",
+          "description": "Lernen Sie mit den besten Deutschlehrern in Shiraz"
+        },
+        {
+          "title": "Online- und Präsenzkurse",
+          "subtitle": "mit umfassenden Ressourcen",
+          "description": "Flexible Kursgestaltung nach Ihren Bedürfnissen"
+        },
+        {
+          "title": "Fachberatung",
+          "subtitle": "für Bildungsmigration",
+          "description": "Beratung für das Studium an den renommiertesten Universitäten Deutschlands"
+        }
+      ],
+      "buttons": {
+        "courses": "Kurse anzeigen",
+        "consultation": "Kostenlose Beratung"
+      }
+    },
+    "cta": {
+      "title": "Beginnen Sie noch heute mit dem Deutschlernen!",
+      "subtitle": "Sonderrabatt für Anmeldungen bis Ende April",
+      "button": "Kurse anzeigen"
+    },
+    "stats": {
+      "title": "Unsere Zahlen im Überblick",
+      "students": "erfolgreiche Studenten",
+      "experience": "Jahre Erfahrung",
+      "courses": "Fachkurse",
+      "satisfaction": "Studentenzufriedenheit"
+    },
+    "whyUs": {
+      "title": "Warum Derakhtekherad?",
+      "subtitle": "Mit unserer Erfahrung und Expertise ebnen wir Ihren Weg zum Erfolg",
+      "features": [
+        {
+          "title": "Erfahrene Dozenten",
+          "description": "Unterricht von erfahrenen Dozenten mit Doktortitel"
+        },
+        {
+          "title": "Kleine Klassen",
+          "description": "Besondere Aufmerksamkeit für jeden Studenten mit maximal 10 Personen pro Klasse"
+        },
+        {
+          "title": "Online- und Präsenzunterricht",
+          "description": "Flexible Lernmöglichkeiten nach Ihren Bedürfnissen"
+        },
+        {
+          "title": "Umfassende Beratung",
+          "description": "Unterstützung bei Visumsanträgen und Universitätsbewerbungen"
+        }
+      ]
+    },
+    "featuredCourses": {
+      "title": "Unsere Kurse",
+      "subtitle": "Deutschkurse für alle Niveaus mit erfahrenen Lehrern"
+    },
+    "levelDetermination": {
+      "title": "Einstufungstest",
+      "subtitle": "Optimieren Sie Ihren Lernweg mit einer standardisierten Einstufung",
+      "description": "Das Derakhtekherad Institut bewertet Ihr aktuelles Deutschniveau anhand der internationalen CEFR-Standards. Dieser umfassende Test bewertet Ihre Sprech-, Hör-, Schreib- und Lesefähigkeiten.",
+      "features": [
+        "Standardisierter Test nach internationalen Kriterien",
+        "Genaue Bewertung der vier Hauptsprachfähigkeiten",
+        "Fachliches Feedback von erfahrenen Dozenten",
+        "Kursempfehlung basierend auf den Ergebnissen"
+      ],
+      "cta": "Einstufungstest buchen"
+    },
+    "courses": {
+      "title": "Unsere Kurse",
+      "subtitle": "Von Anfängern bis zur TestDaF-Vorbereitung",
+      "viewAll": "Alle Kurse anzeigen"
+    },
+    "testimonials": {
+      "title": "Was unsere Studenten sagen",
+      "subtitle": "Erfahrungen unserer erfolgreichen Studenten"
+    },
+    "blog": {
+      "title": "Neueste Artikel",
+      "subtitle": "Informative Artikel über Deutschlernen und Leben in Deutschland",
+      "viewAll": "Alle Artikel anzeigen",
+      "readMore": "Weiterlesen",
+      "author": "Autor"
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "subtitle": "Wir sind hier, um Ihre Fragen zu beantworten",
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "send": "Nachricht senden",
+      "success": "Ihre Nachricht wurde erfolgreich gesendet!",
+      "error": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+      "contactUs": "Kontakt",
+      "consultation": "Beratung anfragen"
+    }
+  },
+  "about": {
+    "title": "Über Derakhtekherad",
+    "subtitle": "Lernen Sie das Derakhtekherad Sprachinstitut kennen",
+    "history": {
+      "title": "Geschichte",
+      "description": "Das Derakhtekherad Sprachinstitut wurde 2011 mit dem Ziel gegründet, qualitativ hochwertigen Deutschunterricht anzubieten."
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Unser Ziel ist es, Studenten zu befähigen, in einem internationalen akademischen und beruflichen Umfeld erfolgreich zu sein."
+    },
+    "team": {
+      "title": "Unser Team",
+      "description": "Die Dozenten und Mitarbeiter von Derakhtekherad sind erfahrene Experten im Bereich Deutschunterricht."
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Bleiben Sie in Kontakt mit uns",
+    "form": {
+      "title": "Nachricht senden",
+      "name": "Vor- und Nachname",
+      "email": "E-Mail",
+      "phone": "Telefonnummer",
+      "message": "Ihre Nachricht",
+      "submit": "Nachricht senden",
+      "submitting": "Wird gesendet...",
+      "success": "Ihre Nachricht wurde erfolgreich gesendet.",
+      "error": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es erneut."
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "address": "Adresse",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "hours": "Öffnungszeiten",
+      "weekdays": "Samstag bis Mittwoch",
+      "weekend": "Donnerstag und Freitag",
+      "closed": "Geschlossen"
+    }
+  },
+  "consultation": {
+    "title": "Beratung",
+    "subtitle": "Erhalten Sie fachkundige Beratung für Ihr Studium in Deutschland",
+    "form": {
+      "title": "Beratung anfragen",
+      "name": "Vor- und Nachname",
+      "email": "E-Mail",
+      "phone": "Telefonnummer",
+      "topic": "Beratungsthema",
+      "message": "Details",
+      "submit": "Beratung anfragen",
+      "submitting": "Wird gesendet...",
+      "success": "Ihre Beratungsanfrage wurde erfolgreich gesendet.",
+      "error": "Fehler beim Senden der Anfrage. Bitte versuchen Sie es erneut."
+    },
+    "topics": {
+      "academic": "Studienberatung",
+      "visa": "Visumsberatung",
+      "language": "Sprachprüfungsberatung",
+      "career": "Karriereberatung"
+    },
+    "info": {
+      "title": "Beratungsarten",
+      "academicDescription": "Beratung zur Wahl des Studienfachs, der Universität und zum Bewerbungsprozess in Deutschland.",
+      "visaDescription": "Beratung zu erforderlichen Dokumenten, Interviews und zum Visumsantragsprozess für Deutschland.",
+      "languageDescription": "Beratung zu deutschen Sprachprüfungen wie TestDaF, DSH und Goethe.",
+      "careerDescription": "Beratung zu Karrieremöglichkeiten und Arbeitssuche in Deutschland nach dem Studium.",
+      "note": "Hinweis",
+      "noteText": "Beratungstermine werden sowohl vor Ort als auch online angeboten. Bitte füllen Sie das Formular aus, um einen Termin zu vereinbaren."
+    }
+  }
+} 

@@ -16,7 +16,7 @@ const allCourses = [
     levelKey: 'courses.levels.beginner',
     teacherKey: 'courses.teachers.mohammadi',
     price: 2500000,
-    imageUrl: '/images/courses/Leonardo_Phoenix_10_Highcontrast_minimalist_photography_style_1.jpg',
+    imageUrl: '',
     startDate: '2024-04-01',
   },
   {
@@ -26,7 +26,7 @@ const allCourses = [
     levelKey: 'courses.levels.intermediate',
     teacherKey: 'courses.teachers.rezaei',
     price: 3200000,
-    imageUrl: '/images/courses/Leonardo_Phoenix_10_Highcontrast_minimalist_photography_style_2.jpg',
+    imageUrl: '',
     startDate: '2024-04-15',
   },
   {
@@ -36,7 +36,7 @@ const allCourses = [
     levelKey: 'courses.levels.advanced',
     teacherKey: 'courses.teachers.alavi',
     price: 4500000,
-    imageUrl: '/images/courses/Leonardo_Phoenix_10_Highcontrast_minimalist_photography_featur_2.jpg',
+    imageUrl: '',
     startDate: '2024-05-01',
   },
   // Add more courses...

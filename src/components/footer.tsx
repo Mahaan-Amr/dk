@@ -13,7 +13,9 @@ const quickLinks = [
 
 const contactInfo = {
   address: 'شیراز، خیابان ملاصدرا، ساختمان درخت خرد، طبقه دوم',
-  phone: '۰۷۱-۳۲۳۴۵۶۷۸',
+  phone: '۰۷۱۳۶۳۸۶۶۵۲',
+  mobile: '۰۹۳۶۰۲۱۷۶۸۴',
+  whatsapp: '۰۹۳۶۰۲۱۷۶۸۴',
   email: 'info@derakhtkherad.com',
   workingHours: 'شنبه تا پنجشنبه: ۹ صبح تا ۷ عصر',
 };
@@ -60,6 +62,8 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-gray-500 dark:text-gray-400">
               <li>{contactInfo.address}</li>
               <li>تلفن: {contactInfo.phone}</li>
+              <li>موبایل: {contactInfo.mobile}</li>
+              <li>واتساپ: {contactInfo.whatsapp}</li>
               <li>ایمیل: {contactInfo.email}</li>
               <li>{contactInfo.workingHours}</li>
             </ul>

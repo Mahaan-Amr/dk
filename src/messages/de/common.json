@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "title": "Derakhtekherad | Deutschkurse",
+    "description": "Derakhtekherad Sprachinstitut bietet Deutschkurse und Bildungsberatung für Deutschland an"
+  },
+  "common": {
+    "language": "Sprache",
+    "darkMode": "Dunkelmodus",
+    "lightMode": "Hellmodus",
+    "share": {
+      "whatsapp": "Auf WhatsApp teilen",
+      "telegram": "Auf Telegram teilen",
+      "twitter": "Auf Twitter teilen",
+      "copyLink": "Link kopieren",
+      "copied": "Link kopiert!"
+    }
+  },
+  "nav": {
+    "home": "Startseite",
+    "courses": "Kurse",
+    "blog": "Blog",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "consultation": "Beratung",
+    "login": "Anmelden",
+    "signup": "Registrieren"
+  },
+  "errors": {
+    "notFound": {
+      "title": "Seite nicht gefunden",
+      "description": "Es tut uns leid, die gesuchte Seite existiert nicht.",
+      "button": "Zurück zur Startseite"
+    },
+    "serverError": {
+      "title": "Serverfehler",
+      "description": "Es tut uns leid, ein Serverfehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+      "button": "Zurück zur Startseite"
+    },
+    "pageNotFound": "Die angeforderte Seite wurde nicht gefunden.",
+    "unauthorized": "Sie sind nicht berechtigt, auf diese Seite zuzugreifen.",
+    "forbidden": "Sie haben keine Berechtigung, auf diese Ressource zuzugreifen.",
+    "validationError": "Bitte überprüfen Sie Ihre Eingaben und versuchen Sie es erneut."
+  },
+  "footer": {
+    "about": "Über Derakhtekherad",
+    "aboutText": "Das Derakhtekherad Sprachinstitut wurde gegründet, um qualitativ hochwertigen Deutschunterricht und Bildungsberatung anzubieten.",
+    "quickLinks": "Schnellzugriff",
+    "contactInfo": "Kontaktinformationen",
+    "address": "Shiraz, Mulla Sadra Straße, Gasse 3, Nr. 12",
+    "phone": "071-36386652",
+    "mobile": "+989360217684",
+    "whatsapp": "+989360217684",
+    "email": "info@derakhtekherad.ir",
+    "copyright": "Alle Rechte vorbehalten für Derakhtekherad",
+    "follow": "Folgen Sie uns",
+    "home": "Startseite",
+    "courses": "Kurse",
+    "consultation": "Beratung",
+    "blog": "Blog",
+    "aboutLink": "Über uns",
+    "contact": "Kontakt"
+  }
+} 

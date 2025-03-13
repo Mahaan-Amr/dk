@@ -18,10 +18,12 @@ export default createMiddleware({
 });
  
 export const config = {
-  // Match all pathnames except for
-  // - static assets (e.g. /static/...)
-  // - API routes (e.g. /api/...)
-  // - _next (e.g. /_next/...)
-  // - images, favicon, etc. (e.g. /images/..., /favicon.ico, etc.)
-  matcher: ['/((?!api|_next|.*\\..*).*)'],
+  // Match all pathnames except for:
+  // - API routes (/api/...)
+  // - _next (Next.js internals)
+  // - Static files (images, etc.)
+  matcher: [
+    // Use a lookahead to exclude paths that start with /api, /_next, or contain a dot (for files)
+    '/((?!api|_next|static|.*\\.).)*'
+  ],
 }; 

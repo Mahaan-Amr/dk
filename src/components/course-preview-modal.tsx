@@ -19,6 +19,7 @@ import {
   FaTwitter,
   FaLink
 } from 'react-icons/fa';
+import { PlaceholderImage } from './ui/placeholder-image';
 
 interface CoursePreviewModalProps {
   isOpen: boolean;
@@ -203,12 +204,14 @@ export function CoursePreviewModal({ isOpen, onClose, course }: CoursePreviewMod
 
               {/* Course Image */}
               <div className="relative h-64">
-                <img
+                <PlaceholderImage
                   src={course.imageUrl}
                   alt={course.title}
-                  className="w-full h-full object-cover rounded-t-lg"
+                  fill
+                  className="rounded-t-lg"
+                  category={course.level.toLowerCase() || 'course'}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent rounded-t-lg" />
               </div>
 
               {/* Course Content */}

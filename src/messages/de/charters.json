@@ -1,0 +1,88 @@
+{
+  "title": "Grundsätze und Bildungsprinzipien",
+  "subtitle": "Unsere Werte und Prinzipien in der Ausbildung und Betreuung von Studierenden",
+  "intro": "Das Derakhte Kherad Sprachinstitut hat die folgenden Grundsätze als Rahmen für seine Bildungsaktivitäten angenommen, basierend auf der Überzeugung von der Bedeutung einer fundierten und ethischen Bildung. Diese Prinzipien leiten uns bei der Bereitstellung hochwertiger Bildungsdienstleistungen und der Achtung der Menschenwürde.",
+  
+  "educationalCharter": {
+    "title": "Bildungscharta",
+    "principles": [
+      {
+        "title": "Bildungsqualität",
+        "description": "Wir sind bestrebt, die besten Lehrmethoden unter Verwendung der neuesten Sprachlehrmethoden anzuwenden. Unsere Lehrer verfügen alle über Erfahrung und anerkannte Qualifikationen im Bereich des Deutschunterrichts."
+      },
+      {
+        "title": "Aktives Lernen",
+        "description": "Wir glauben, dass Sprachenlernen ein aktiver Prozess sein sollte. Unsere Lehrmethoden basieren auf der Beteiligung der Studierenden und der kontinuierlichen Übung von Sprachfähigkeiten in einer dynamischen Umgebung."
+      },
+      {
+        "title": "Respekt für individuelle Unterschiede",
+        "description": "Jeder Lernende hat sein eigenes Tempo und seinen eigenen Lernstil. Wir respektieren diese Unterschiede und bemühen uns, unseren Unterricht an die Bedürfnisse jedes Studierenden anzupassen."
+      },
+      {
+        "title": "Umfassende Bildung",
+        "description": "Sprachunterricht beschränkt sich nicht nur auf Grammatik und Vokabular. Wir legen auch besonderen Wert auf die Vermittlung von Kultur, sozialen Bräuchen und effektiven Kommunikationsfähigkeiten in der deutschen Sprache."
+      },
+      {
+        "title": "Konstruktives Feedback",
+        "description": "Regelmäßiges und konstruktives Feedback ist ein wichtiger Teil des Lernprozesses. Wir helfen unseren Studierenden, durch das Bewusstsein für ihre Stärken und Schwächen ihren Fortschritt zu erleichtern."
+      }
+    ]
+  },
+  
+  "ethicalCharter": {
+    "title": "Ethische Charta",
+    "principles": [
+      {
+        "title": "Ehrlichkeit und Transparenz",
+        "description": "Wir halten uns in all unseren Kommunikationen und Interaktionen mit Studierenden und Kollegen an das Prinzip der Ehrlichkeit und Transparenz. Kursbedingungen, Kosten und Erwartungen werden allen klar mitgeteilt."
+      },
+      {
+        "title": "Gegenseitiger Respekt",
+        "description": "Unsere Lernumgebung basiert auf gegenseitigem Respekt. Wir vermeiden jede Form von Diskriminierung, Belästigung und respektlosem Verhalten und schaffen einen sicheren Raum zum Lernen."
+      },
+      {
+        "title": "Wahrung der Privatsphäre",
+        "description": "Wir sind verpflichtet, die persönlichen Daten von Studierenden und Kollegen zu schützen und geben diese Informationen ohne deren ausdrückliche Erlaubnis an keine Person oder Organisation weiter."
+      },
+      {
+        "title": "Soziale Verantwortung",
+        "description": "Als Bildungseinrichtung nehmen wir unsere soziale Verantwortung ernst und arbeiten daran, das Bildungs- und Kulturniveau der Gesellschaft zu verbessern."
+      },
+      {
+        "title": "Einhaltung von Verpflichtungen",
+        "description": "Wir halten unsere Verpflichtungen gegenüber den Studierenden ein, einschließlich der Unterrichtsqualität, des Unterrichtszeitplans und der Supportdienste, und bemühen uns nach Kräften, die Erwartungen zu erfüllen."
+      }
+    ]
+  },
+  
+  "studentCharter": {
+    "title": "Charta der Studentenrechte",
+    "principles": [
+      {
+        "title": "Recht auf qualitativ hochwertige Bildung",
+        "description": "Jeder Student hat das Recht auf eine qualitativ hochwertige und standardisierte Ausbildung. Wir tun unser Bestes, um den Studierenden die beste Lernerfahrung zu bieten."
+      },
+      {
+        "title": "Recht auf freie Meinungsäußerung und Kritik",
+        "description": "Die Studierenden haben das Recht, ihre Meinungen, Vorschläge und Kritik frei zu äußern. Wir begrüßen konstruktives Feedback und streben nach kontinuierlicher Verbesserung."
+      },
+      {
+        "title": "Recht auf Zugang zu Bildungsressourcen",
+        "description": "Die Studierenden haben das Recht auf Zugang zu geeigneten Bildungsressourcen, einschließlich Büchern, digitalen Unterrichtsmaterialien und einem geeigneten Lernumfeld."
+      },
+      {
+        "title": "Recht auf Beratung und Anleitung",
+        "description": "Die Studierenden haben das Recht auf akademische und berufliche Beratung und Anleitung. Wir haben Fachberater, die bereit sind, Fragen zu beantworten und Anleitung zu geben."
+      },
+      {
+        "title": "Recht auf faire Bewertung",
+        "description": "Die Bewertung des Fortschritts der Studierenden sollte fair, transparent und auf klaren Kriterien basieren. Die Studierenden haben das Recht, über die Bewertungsmethode und deren Kriterien informiert zu werden."
+      }
+    ]
+  },
+  
+  "commitmentSection": {
+    "title": "Unser Engagement",
+    "content": "Im Derakhte Kherad Sprachinstitut fühlen wir uns verpflichtet, diese Grundsätze und Werte einzuhalten. Unsere Chartas spiegeln nicht nur unsere Ideale wider, sondern dienen auch als Maßstab für die Bewertung unserer Leistung durch Studierende, Kollegen und die Gemeinschaft. Wir arbeiten kontinuierlich daran, die Qualität unserer Bildung und Dienstleistungen zu verbessern, und begrüßen jedes konstruktive Feedback."
+  }
+} 

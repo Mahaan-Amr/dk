@@ -1,0 +1,839 @@
+{
+  "E:/derakhtekherad/src/i18n.ts": {
+    "path": "E:/derakhtekherad/src/i18n.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/instrumentation.ts": {
+    "path": "E:/derakhtekherad/src/instrumentation.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/middleware.ts": {
+    "path": "E:/derakhtekherad/src/middleware.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/layout.tsx": {
+    "path": "E:/derakhtekherad/src/app/layout.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/providers.tsx": {
+    "path": "E:/derakhtekherad/src/app/providers.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/animated-section.tsx": {
+    "path": "E:/derakhtekherad/src/components/animated-section.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/animated-stat.tsx": {
+    "path": "E:/derakhtekherad/src/components/animated-stat.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/back-to-top.tsx": {
+    "path": "E:/derakhtekherad/src/components/back-to-top.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/course-card.tsx": {
+    "path": "E:/derakhtekherad/src/components/course-card.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/course-preview-modal.tsx": {
+    "path": "E:/derakhtekherad/src/components/course-preview-modal.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/direction-aware.tsx": {
+    "path": "E:/derakhtekherad/src/components/direction-aware.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/floating-chat.tsx": {
+    "path": "E:/derakhtekherad/src/components/floating-chat.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/footer.tsx": {
+    "path": "E:/derakhtekherad/src/components/footer.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/hero-carousel.tsx": {
+    "path": "E:/derakhtekherad/src/components/hero-carousel.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/language-switcher.tsx": {
+    "path": "E:/derakhtekherad/src/components/language-switcher.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/loading-spinner.tsx": {
+    "path": "E:/derakhtekherad/src/components/loading-spinner.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/locale-layout-client-wrapper.tsx": {
+    "path": "E:/derakhtekherad/src/components/locale-layout-client-wrapper.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/localized-footer.tsx": {
+    "path": "E:/derakhtekherad/src/components/localized-footer.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/mobile-nav.tsx": {
+    "path": "E:/derakhtekherad/src/components/mobile-nav.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/navigation.tsx": {
+    "path": "E:/derakhtekherad/src/components/navigation.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/next-intl-provider.tsx": {
+    "path": "E:/derakhtekherad/src/components/next-intl-provider.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/sticky-header.tsx": {
+    "path": "E:/derakhtekherad/src/components/sticky-header.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/theme-provider-client.tsx": {
+    "path": "E:/derakhtekherad/src/components/theme-provider-client.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/theme-toggle.tsx": {
+    "path": "E:/derakhtekherad/src/components/theme-toggle.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/tooltip.tsx": {
+    "path": "E:/derakhtekherad/src/components/tooltip.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/hooks/useBlogEditorForm.ts": {
+    "path": "E:/derakhtekherad/src/hooks/useBlogEditorForm.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/models/BlogCategory.ts": {
+    "path": "E:/derakhtekherad/src/models/BlogCategory.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/models/BlogPost.ts": {
+    "path": "E:/derakhtekherad/src/models/BlogPost.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/models/Media.ts": {
+    "path": "E:/derakhtekherad/src/models/Media.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/models/MediaItem.ts": {
+    "path": "E:/derakhtekherad/src/models/MediaItem.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/scripts/publish-scheduled-posts.ts": {
+    "path": "E:/derakhtekherad/src/scripts/publish-scheduled-posts.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/types/jwt-types.ts": {
+    "path": "E:/derakhtekherad/src/types/jwt-types.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/types/locale.ts": {
+    "path": "E:/derakhtekherad/src/types/locale.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/types/media.ts": {
+    "path": "E:/derakhtekherad/src/types/media.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/utils/gsap.ts": {
+    "path": "E:/derakhtekherad/src/utils/gsap.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/utils/middleware-client.ts": {
+    "path": "E:/derakhtekherad/src/utils/middleware-client.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/utils/mongodb.ts": {
+    "path": "E:/derakhtekherad/src/utils/mongodb.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/utils/useGsapAnimation.ts": {
+    "path": "E:/derakhtekherad/src/utils/useGsapAnimation.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api-root-test/route.js": {
+    "path": "E:/derakhtekherad/src/app/api-root-test/route.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/error.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/error.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/layout.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/layout.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/not-found.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/not-found.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/admin/admin-header.tsx": {
+    "path": "E:/derakhtekherad/src/components/admin/admin-header.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/admin/admin-layout.tsx": {
+    "path": "E:/derakhtekherad/src/components/admin/admin-layout.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/admin/admin-login-form.tsx": {
+    "path": "E:/derakhtekherad/src/components/admin/admin-login-form.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/admin/auth-check.tsx": {
+    "path": "E:/derakhtekherad/src/components/admin/auth-check.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/admin/dashboard-stats.tsx": {
+    "path": "E:/derakhtekherad/src/components/admin/dashboard-stats.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/admin/[[...path]]/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/admin/[[...path]]/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/bun/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/bun/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/healthcheck/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/healthcheck/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/hello/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/hello/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/simple/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/simple/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/test-db/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/test-db/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/about/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/about/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/admin/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/admin/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/blog/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/blog/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/consultation/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/consultation/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/contact/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/contact/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/courses/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/courses/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/admin/blog/BlogCategories.tsx": {
+    "path": "E:/derakhtekherad/src/components/admin/blog/BlogCategories.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/admin/blog/BlogCategoryList.tsx": {
+    "path": "E:/derakhtekherad/src/components/admin/blog/BlogCategoryList.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/admin/blog/BlogPostEditor.tsx": {
+    "path": "E:/derakhtekherad/src/components/admin/blog/BlogPostEditor.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/admin/blog/BlogPostList.tsx": {
+    "path": "E:/derakhtekherad/src/components/admin/blog/BlogPostList.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/admin/media/MediaLibrary.tsx": {
+    "path": "E:/derakhtekherad/src/components/admin/media/MediaLibrary.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/components/admin/media/MediaPicker.tsx": {
+    "path": "E:/derakhtekherad/src/components/admin/media/MediaPicker.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/create/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/create/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/create-admin/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/create-admin/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/login/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/login/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/media/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/media/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/setup/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/setup/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/simple-setup/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/simple-setup/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/admin/blog/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/admin/blog/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/admin/dashboard/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/admin/dashboard/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/admin/login/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/admin/login/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/blog/[id]/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/blog/[id]/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/courses/[id]/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/courses/[id]/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/blog/categories/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/blog/categories/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/blog/posts/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/blog/posts/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/media/test/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/media/test/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/media/upload/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/media/upload/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/media/[id]/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/media/[id]/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/admin/blog/categories/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/admin/blog/categories/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/admin/blog/posts/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/admin/blog/posts/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/blog/preview/[id]/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/blog/preview/[id]/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/blog/categories/[slug]/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/blog/categories/[slug]/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/blog/posts/[slug]/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/blog/posts/[slug]/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/api/admin/blog/preview/[id]/route.ts": {
+    "path": "E:/derakhtekherad/src/app/api/admin/blog/preview/[id]/route.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/admin/blog/posts/new/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/admin/blog/posts/new/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/pages/api/admin/blog/categories/[slug]/move.ts": {
+    "path": "E:/derakhtekherad/src/pages/api/admin/blog/categories/[slug]/move.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/pages/api/admin/blog/categories/[slug]/reorder.ts": {
+    "path": "E:/derakhtekherad/src/pages/api/admin/blog/categories/[slug]/reorder.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "E:/derakhtekherad/src/app/[locale]/admin/blog/posts/[slug]/edit/page.tsx": {
+    "path": "E:/derakhtekherad/src/app/[locale]/admin/blog/posts/[slug]/edit/page.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  }
+}
