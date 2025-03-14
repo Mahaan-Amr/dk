@@ -10,11 +10,11 @@ const nextConfig = {
   },
   // Updated configuration for external packages
   serverExternalPackages: ['mongoose'],
-  // Disable ESLint warnings for build
+  // Enable ESLint warnings for build
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
-  // Disable TypeScript checking during build
+  // Temporarily disable TypeScript checking due to complex App Router typing issues
   typescript: {
     ignoreBuildErrors: true,
   },

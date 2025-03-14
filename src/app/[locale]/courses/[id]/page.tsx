@@ -24,6 +24,7 @@ import {
   FaLink
 } from 'react-icons/fa';
 import Link from 'next/link';
+import Image from 'next/image';
 
 // Sample courses data (in a real app, this would come from an API)
 const allCourses = [
@@ -74,7 +75,9 @@ export default function CourseDetailPage() {
   const t = useTranslations();
   const locale = useLocale();
   const params = useParams();
-  const courseId = params.id as string;
+
+  // Add null check and provide default value
+  const courseId = params?.id as string || '';
   
   const [activeTab, setActiveTab] = useState('overview');
   const [isBookmarked, setIsBookmarked] = useState(false);
@@ -235,10 +238,13 @@ export default function CourseDetailPage() {
       <main className="pb-16">
         {/* Course Header */}
         <div className="relative h-96">
-          <img
+          <Image
             src={course.imageUrl}
             alt={t(course.titleKey)}
-            className="w-full h-full object-cover"
+            className="object-cover"
+            fill
+            priority
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
           

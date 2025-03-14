@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { Locale } from '@/types/locale';
 
@@ -62,7 +62,7 @@ export function useBlogEditorForm(initialLocale: Locale, slug?: string) {
   });
 
   // Mock fetch for tests
-  const fetchWithMock = async (url: string, options?: RequestInit) => {
+  const fetchWithMock = useCallback(async (url: string, options?: RequestInit) => {
     // For tests, we need to handle mock data
     if (typeof window === 'undefined' || process.env.NODE_ENV === 'test') {
       // Mock categories data for tests
@@ -125,9 +125,9 @@ export function useBlogEditorForm(initialLocale: Locale, slug?: string) {
     
     // Real fetch for production
     return fetch(url, options);
-  };
+  }, [slug]);
 
-  // Fetch categories on mount
+  // Fetch categories on load
   useEffect(() => {
     async function fetchCategories() {
       try {
@@ -135,7 +135,9 @@ export function useBlogEditorForm(initialLocale: Locale, slug?: string) {
         if (!response.ok) throw new Error('Failed to fetch categories');
         
         const data = await response.json();
-        setCategories(data.categories || []);
+        if (data && data.categories) {
+          setCategories(data.categories);
+        }
       } catch (err) {
         setError('Failed to load categories');
         console.error(err);
@@ -143,7 +145,7 @@ export function useBlogEditorForm(initialLocale: Locale, slug?: string) {
     }
     
     fetchCategories();
-  }, []);
+  }, [fetchWithMock]);
 
   // Fetch post if editing existing
   useEffect(() => {
@@ -170,7 +172,7 @@ export function useBlogEditorForm(initialLocale: Locale, slug?: string) {
     }
     
     fetchPost();
-  }, [slug]);
+  }, [slug, fetchWithMock]);
 
   // Handle field changes
   const handleFieldChange = (field: string, value: string | string[]) => {

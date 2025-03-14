@@ -1,0 +1,70 @@
+﻿{
+    "meta":  {
+                 "title":  "Blog-Verwaltung",
+                 "description":  "Verwalten Sie BlogbeitrÃ¤ge und Kategorien"
+             },
+    "posts":  {
+                  "title":  "BlogbeitrÃ¤ge",
+                  "description":  "Verwalten Sie Ihre BlogbeitrÃ¤ge",
+                  "addNew":  "Neuen Beitrag hinzufÃ¼gen",
+                  "create":  "Neuen Beitrag erstellen",
+                  "search":  "BeitrÃ¤ge durchsuchen",
+                  "filter":  "BeitrÃ¤ge filtern",
+                  "all":  "Alle",
+                  "published":  "VerÃ¶ffentlicht",
+                  "draft":  "Entwurf",
+                  "archived":  "Archiviert",
+                  "delete":  "LÃ¶schen",
+                  "confirmDelete":  "Sind Sie sicher, dass Sie diesen Beitrag lÃ¶schen mÃ¶chten?",
+                  "allStatuses":  "Alle Status",
+                  "allCategories":  "Alle Kategorien",
+                  "status":  "Status",
+                  "noPosts":  "Keine BeitrÃ¤ge gefunden",
+                  "previous":  "ZurÃ¼ck",
+                  "next":  "Weiter",
+                  "columns":  {
+                                  "title":  "Titel",
+                                  "status":  "Status",
+                                  "date":  "Datum",
+                                  "author":  "Autor",
+                                  "actions":  "Aktionen"
+                              }
+              },
+    "editor":  {
+                   "newPost":  "Neuer Beitrag",
+                   "editPost":  "Beitrag bearbeiten",
+                   "title":  "Titel",
+                   "titlePlaceholder":  "Geben Sie einen Titel ein",
+                   "titleRequired":  "Ein Titel ist erforderlich",
+                   "slug":  "Slug",
+                   "slugHelp":  "URL-freundliche Kennung fÃ¼r Ihren Beitrag. Wird automatisch aus dem Titel generiert.",
+                   "summary":  "Zusammenfassung",
+                   "summaryPlaceholder":  "Geben Sie eine kurze Zusammenfassung ein",
+                   "summaryRequired":  "Eine Zusammenfassung ist erforderlich",
+                   "content":  "Inhalt",
+                   "contentRequired":  "Inhalt ist erforderlich",
+                   "categories":  "Kategorien",
+                   "featuredImage":  "Hauptbild",
+                   "selectImage":  "Bild auswÃ¤hlen",
+                   "changeImage":  "Bild Ã¤ndern",
+                   "removeImage":  "Bild entfernen",
+                   "status":  "Status",
+                   "statusDraft":  "Entwurf",
+                   "statusPublished":  "VerÃ¶ffentlicht",
+                   "statusArchived":  "Archiviert",
+                   "save":  "Speichern",
+                   "saving":  "Speichern...",
+                   "saveSuccess":  "Beitrag erfolgreich gespeichert",
+                   "preview":  "Vorschau",
+                   "preparing":  "Vorbereiten...",
+                   "back":  "ZurÃ¼ck",
+                   "loadingError":  "Fehler beim Laden des Beitrags",
+                   "loading":  "Laden...",
+                   "createPost":  "Neuen Beitrag erstellen",
+                   "createDescription":  "Erstellen Sie einen neuen Blogbeitrag"
+               },
+    "categories":  {
+                       "description":  "Verwalten Sie die Kategorien für Ihre Blogbeiträge",
+                       "title":  "Blog-Kategorien"
+                   }
+}

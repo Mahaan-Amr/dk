@@ -21,7 +21,7 @@ export async function generateMetadata({
   params: PageParams 
 }): Promise<Metadata> {
   // Set the locale for metadata
-  await unstable_setRequestLocale(params.locale);
+  unstable_setRequestLocale(params.locale);
   
   // Get translations
   const t = await getTranslations({
@@ -35,14 +35,14 @@ export async function generateMetadata({
   };
 }
 
+type Props = {
+  params: PageParams;
+};
+
 // Blog categories page component
-export default async function BlogCategoriesPage({ 
-  params 
-}: { 
-  params: PageParams 
-}) {
+export default async function BlogCategoriesPage({ params }: Props) {
   // Set the locale for this request
-  await unstable_setRequestLocale(params.locale);
+  unstable_setRequestLocale(params.locale);
   
   // Get translations for the page
   const t = await getTranslations({ locale: params.locale, namespace: 'adminblog' });

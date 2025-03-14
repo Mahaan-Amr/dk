@@ -3,9 +3,17 @@ import { connectToDatabase } from '@/utils/mongodb';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import mongoose from 'mongoose';
+import { z } from 'zod';
+import { generateCsrfToken } from '@/lib/csrf';
 
 // Debug log for module loading
 console.log('[API] Admin Login API route module loaded');
+
+// Define the login schema with Zod
+const loginSchema = z.object({
+  username: z.string().min(3, "Username must be at least 3 characters"),
+  password: z.string().min(6, "Password must be at least 6 characters")
+});
 
 // Define the admin interface
 interface IAdmin {
@@ -52,18 +60,25 @@ function getAdminModel() {
 export async function POST(request: NextRequest) {
   console.log('[API] Admin Login API route POST handler called');
   try {
-    // Parse the request body
-    const { username, password } = await request.json();
-    console.log(`[API] Login attempt for username: ${username}`);
+    // Parse and validate the request body
+    const body = await request.json();
     
-    // Validate input
-    if (!username || !password) {
-      console.log('[API] Login failed: Missing username or password');
+    // Validate input using Zod
+    const result = loginSchema.safeParse(body);
+    if (!result.success) {
+      console.log('[API] Login failed: Invalid input', result.error.format());
       return NextResponse.json(
-        { message: 'Username and password are required' },
+        { 
+          message: 'Invalid input', 
+          errors: result.error.format() 
+        }, 
         { status: 400 }
       );
     }
+    
+    // Extract validated data
+    const { username, password } = result.data;
+    console.log(`[API] Login attempt for username: ${username}`);
     
     try {
       // Connect to the database
@@ -81,18 +96,11 @@ export async function POST(request: NextRequest) {
         console.log(`[API] User search result: ${admin ? 'Found' : 'Not found'}`);
       } catch (findError) {
         console.error('[API] Error finding admin:', findError);
-        
-        // In development mode, proceed with a fake admin
-        if (process.env.NODE_ENV === 'development') {
-          console.log('[API] Development mode: Using fake admin');
-          admin = null;
-        } else {
-          throw findError;
-        }
+        throw findError;
       }
       
-      // If admin doesn't exist and NOT in development mode, return error
-      if (!admin && process.env.NODE_ENV !== 'development') {
+      // If admin doesn't exist, return error
+      if (!admin) {
         console.log('[API] Login failed: Invalid credentials (user not found)');
         return NextResponse.json(
           { message: 'Invalid credentials' },
@@ -102,26 +110,13 @@ export async function POST(request: NextRequest) {
       
       let isPasswordValid = false;
       
-      // Check password if admin exists
-      if (admin) {
-        try {
-          isPasswordValid = await bcrypt.compare(password, admin.password);
-          console.log(`[API] Password validation result: ${isPasswordValid ? 'Valid' : 'Invalid'}`);
-        } catch (compareError) {
-          console.error('[API] Error comparing passwords:', compareError);
-          
-          // In development mode, proceed with fake validation
-          if (process.env.NODE_ENV === 'development') {
-            isPasswordValid = (password === 'DerakhtKherad@2024' && username === 'admin');
-            console.log(`[API] Dev mode password check: ${isPasswordValid ? 'Valid' : 'Invalid'}`);
-          } else {
-            throw compareError;
-          }
-        }
-      } else if (process.env.NODE_ENV === 'development') {
-        // In development mode, accept hardcoded credentials
-        isPasswordValid = (password === 'DerakhtKherad@2024' && username === 'admin');
-        console.log(`[API] Dev mode password check: ${isPasswordValid ? 'Valid' : 'Invalid'}`);
+      // Check password
+      try {
+        isPasswordValid = await bcrypt.compare(password, admin.password);
+        console.log(`[API] Password validation result: ${isPasswordValid ? 'Valid' : 'Invalid'}`);
+      } catch (compareError) {
+        console.error('[API] Error comparing passwords:', compareError);
+        throw compareError;
       }
       
       if (!isPasswordValid) {
@@ -132,28 +127,32 @@ export async function POST(request: NextRequest) {
         );
       }
       
-      // Update last login time if admin exists
-      if (admin) {
-        try {
-          admin.lastLogin = new Date();
-          await admin.save();
-          console.log('[API] Updated last login time');
-        } catch (saveError) {
-          console.warn('[API] Failed to update last login time:', saveError);
-          // Non-critical error, continue
-        }
+      // Update last login time
+      try {
+        admin.lastLogin = new Date();
+        await admin.save();
+        console.log('[API] Updated last login time');
+      } catch (saveError) {
+        console.warn('[API] Failed to update last login time:', saveError);
+        // Non-critical error, continue
       }
       
       // Create payload
       const payload = {
-        id: admin ? admin._id.toString() : 'dev_id',
+        id: admin._id.toString(),
         username: username
       };
       console.log('[API] Creating token with payload:', payload);
       
-      // Use a simple approach with jwt.sign that TypeScript accepts
-      const jwtSecret = process.env.JWT_SECRET || 'fallback_secret';
-      console.log(`[API] Using JWT secret (first 3 chars): ${jwtSecret.substring(0, 3)}...`);
+      // Properly check for JWT_SECRET environment variable
+      const jwtSecret = process.env.JWT_SECRET;
+      if (!jwtSecret) {
+        console.error('JWT_SECRET environment variable is not defined');
+        return NextResponse.json(
+          { message: 'Server configuration error' },
+          { status: 500 }
+        );
+      }
       
       let token: string;
       
@@ -165,17 +164,10 @@ export async function POST(request: NextRequest) {
         console.log(`[API] Token created (first 10 chars): ${token.substring(0, 10)}...`);
       } catch (signError) {
         console.error('[API] JWT sign error:', signError);
-        
-        // In development mode, use a fake token
-        if (process.env.NODE_ENV === 'development') {
-          token = 'dev_token_123456789';
-          console.log('[API] Using fallback dev token');
-        } else {
-          return NextResponse.json(
-            { message: 'Error generating authentication token' },
-            { status: 500 }
-          );
-        }
+        return NextResponse.json(
+          { message: 'Error generating authentication token' },
+          { status: 500 }
+        );
       }
       
       // Create response with token
@@ -183,11 +175,13 @@ export async function POST(request: NextRequest) {
         message: 'Login successful',
         token,
         user: {
-          id: admin ? admin._id : 'dev_id',
+          id: admin._id,
           username: username,
-          name: admin ? admin.name : 'Admin User (Dev)',
-          email: admin ? admin.email : 'admin@derakhtekherad.com',
+          name: admin.name,
+          email: admin.email,
         },
+        // Generate CSRF token for API requests
+        csrfToken: generateCsrfToken(),
       };
       console.log('[API] Login successful, returning token and user data');
       
@@ -196,23 +190,6 @@ export async function POST(request: NextRequest) {
       
     } catch (dbError) {
       console.error('[API] Database error:', dbError);
-      
-      // In development mode, provide a fake response
-      if (process.env.NODE_ENV === 'development') {
-        console.log('[API] Development mode: Providing fake login response');
-        return NextResponse.json({
-          message: 'Login successful (dev mode)',
-          token: 'dev_token_123456789',
-          user: {
-            id: 'dev_id',
-            username: username,
-            name: 'Admin User (Dev)',
-            email: 'admin@derakhtekherad.com',
-          },
-          devMode: true,
-        });
-      }
-      
       throw dbError;
     }
   } catch (error) {

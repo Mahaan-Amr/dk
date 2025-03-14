@@ -59,9 +59,6 @@ const BlogCategorySchema = new Schema<IBlogCategory>(
   }
 );
 
-// Create a compound index on slug to improve query performance
-BlogCategorySchema.index({ slug: 1 });
-
 // Create or get the model
 function getBlogCategoryModel(): Model<IBlogCategory> {
   return mongoose.models.BlogCategory as Model<IBlogCategory> || 

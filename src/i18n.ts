@@ -43,7 +43,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     for (const section of translationSections) {
       try {
         // For filesystem, use section name with hyphen
-        const fileSection = section === 'adminblog' ? 'admin-blog' : section;
+        const fileSection = section === 'adminblog' ? 'adminblog' : section;
         
         // Try to import the file
         try {
